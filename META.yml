@@ -1,7 +1,7 @@
 --- #YAML:1.0
 name:                Net-Squid-Auth-Plugin-UserList
-version:             0.01.01
-abstract:            A User List-Based Credentials Validation Plugin for Net::Squid::Auth::Engine
+version:             0.02
+abstract:            A User List-Based Credentials Validation Plugin for L<Net::Squid::Auth::Engine>
 license:             ~
 author:              
     - Luis Motta Campos <lmc@cpan.org>
@@ -10,7 +10,6 @@ distribution_type:   module
 requires:     
     File::Temp:                    0
     Test::More:                    0
-    version:                       0.74
 meta-spec:
     url:     http://module-build.sourceforge.net/META-spec-v1.3.html
     version: 1.3
